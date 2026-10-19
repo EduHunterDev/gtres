@@ -59,10 +59,16 @@
 
 @media (max-width: 500px) {
     .header {
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 1rem;
         padding: 1rem;
     }
 
     .navigation {
-        display: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        width: 100%;
     }
 }

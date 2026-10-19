@@ -4,7 +4,7 @@ import style from './Header.module.css';
 export function Header({ brand, description, children }) {
     return(
         <header className={style.header}>
-            <Link className={style.brand}>
+            <Link className={style.brand} to="/">
                 <span className={style.logo}>GT</span>
                 <div>
                     <strong>{brand}</strong>
